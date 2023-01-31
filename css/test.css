@@ -53,3 +53,8 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rebeccapurple;
+}
