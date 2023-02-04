@@ -68,14 +68,24 @@ a {
 section {
     background-color: lavender;
     padding: 5px 20px;
+    border: 0px solid;
     margin-bottom: 20px;
+    flex-basis: 30%;
 }
 .link {
     background-color: rebeccapurple;
     color: white;
     padding: 8px 15px 8px 15px;
     margin-left: 10px;
+    display: block;
+    text-align: center;
 }
 .list li:last-child {
-    margin-right: 0;
+   gap: 10px;
+}
+.results {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    gap: 10px;
 }
